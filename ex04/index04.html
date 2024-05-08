@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Verificação de Votação</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Fruta</title>
+    <script src="script04.js"></script>
 </head>
 <body>
-    <h1>Verificação de Votação</h1>
-    <p>Insira sua idade abaixo para verificar sua situação de votação:</p>
-    <input type="number" id="idade" name="idade" min="0" required>
-    <button onclick="verificarBtn()">Verificar</button>
-    <section id="res"></section>
-
-    <script src="script02.js"></script>
-    <a href="/ex01/index01.html">Ex1</a>
-    <a href="/ex02/index02.html">Ex2</a>
-    <a href="/ex03/index03.html">Ex3</a>
-    <a href="/ex04/index04.html">Ex4</a>
-    <a href="/ex05/index05.html">Ex5</a>
+    <h1>Verificar Fruta</h1>
+    <label for="inputFruta">Digite o nome da fruta:</label>
+    <input type="text" id="inputFruta">
+    <button onclick="verificarFruta()">Verificar</button>
+    <p id="resultado"></p>
 </body>
+<a href="/ex01/index01.html">Ex1</a>
+<a href="/ex02/index02.html">Ex2</a>
+<a href="/ex03/index03.html">Ex03</a>
+<a href="/ex05/index05.html">Ex5</a>
 </html>
