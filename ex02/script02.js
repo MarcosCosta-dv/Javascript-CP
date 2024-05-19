@@ -9,4 +9,5 @@ function verificarBtn() {
     } else {
         res.innerHTML = "voto obrigatório";
     }
+    console.log(typeof(idade))
 }
